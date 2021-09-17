@@ -165,3 +165,8 @@ Add new sample app `usbCameraTest8` to show how to set/get uvc control like brig
 ### 2017/04/17
 Add new sample app on [OpenCVwithUVC](https://github.com/saki4510t/OpenCVwithUVC.git) repository.
 This shows the way to pass video images from UVC into `cv::Mat` (after optional applying video effect by OpenGL|ES) and execute image processing by `OpenCV`.
+
+###  2021/09/17
+Change config for Android Studio 4.2.2,need NDK version android-ndk-r14b
+add arm64-v8a x86_64 for compile so files
+fix bugs for jni  crash
